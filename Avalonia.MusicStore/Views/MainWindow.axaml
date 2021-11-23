@@ -8,7 +8,6 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="Avalonia.MusicStore"
         TransparencyLevelHint="AcrylicBlur"
-        Background="Transparent"
         ExtendClientAreaToDecorationsHint="True">
 
     <Design.DataContext>
@@ -16,7 +15,7 @@
     </Design.DataContext>
 
     <Panel>
-        <ExperimentalAcrylicBorder>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False">
             <ExperimentalAcrylicBorder.Material>
                 <ExperimentalAcrylicMaterial
                     BackgroundSource="Digger"
